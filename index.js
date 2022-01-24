@@ -52,25 +52,25 @@
                         className: s()("header-nav", p({}, t, !!t))
                     }, a.createElement(d, {
                         title: "Home",
-                        icon: "/assets/images/header/home-icon.png",
+                        icon: "assets/images/header/home-icon.png",
                         href: "/",
                         onClick: r,
                         margined: !0
                     }), a.createElement(d, {
                         title: "Mint",
-                        icon: "/assets/images/header/about-icon.png",
+                        icon: "assets/images/header/about-icon.png",
                         href: "/mint",
                         onClick: r,
                         margined: !0
                     }), a.createElement(d, {
                         title: "Roadmap",
-                        icon: "/assets/images/header/roadmap-icon.png",
+                        icon: "assets/images/header/roadmap-icon.png",
                         href: "#roadmap",
                         onClick: r,
                         margined: !0
                     }), a.createElement(d, {
                         title: "Utility",
-                        icon: "/assets/images/header/utility-icon.png",
+                        icon: "assets/images/header/utility-icon.png",
                         href: "#utility",
                         onClick: r
                     }), n)
@@ -107,7 +107,7 @@
                     }), a.createElement("i", {
                         className: "gbutton__text"
                     }, n), u, a.createElement("img", {
-                        src: c || "/assets/images/glass.svg",
+                        src: c || "assets/images/glass.svg",
                         alt: "glass",
                         className: "gbutton__glass"
                     })))
@@ -201,11 +201,11 @@
                         to: "/",
                         className: "header__logo"
                     }, a.createElement("img", {
-                        src: "/assets/images/header/logo-icon.svg",
+                        src: "assets/images/header/logo-icon.svg",
                         alt: "logo",
                         className: "header__logo_icon"
                     }), a.createElement("img", {
-                        src: "/assets/images/header/logo-text.svg",
+                        src: "assets/images/header/logo-text.svg",
                         alt: "logo",
                         className: "header__logo_text"
                     })), a.createElement(h, {
@@ -214,7 +214,7 @@
                         text: s,
                         to: "#",
                         className: "header__wallet-btn",
-                        glassIcon: "/assets/images/header/btn-glass.svg",
+                        glassIcon: "assets/images/header/btn-glass.svg",
                         onClick: function() {
                             if (null !== n.userWallet) return !1;
                             l(E(E({}, n), {}, {
@@ -229,7 +229,7 @@
                             }))
                         }
                     }, a.createElement("img", {
-                        src: "/assets/images/header/burgermenu.svg",
+                        src: "assets/images/header/burgermenu.svg",
                         alt: "menuBtn"
                     }))))
                 }
@@ -302,55 +302,55 @@
                     })), a.createElement("div", {
                         className: "intro__background"
                     }, a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/intro/sea@mobile.webp",
+                        srcSet: "assets/images/intro/sea@mobile.webp",
                         media: "(max-width: 665px)",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/sea@mobile.png",
+                        srcSet: "assets/images/intro/sea@mobile.png",
                         media: "(max-width: 665px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/sea.webp",
+                        srcSet: "assets/images/intro/sea.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/sea@3x.png 3x",
+                        srcSet: "assets/images/intro/sea@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/sea@2x.png 2x",
+                        srcSet: "assets/images/intro/sea@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/intro/sea.png",
+                        src: "assets/images/intro/sea.png",
                         alt: "content",
                         className: "back"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/intro/palm-left.webp",
+                        srcSet: "assets/images/intro/palm-left.webp",
                         type: "image/webp"
                     }), a.createElement("img", {
-                        src: "/assets/images/intro/palm-left.png",
+                        src: "assets/images/intro/palm-left.png",
                         alt: "palm-left",
                         className: "palm-left"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/intro/palm-right.webp",
+                        srcSet: "assets/images/intro/palm-right.webp",
                         type: "image/webp"
                     }), a.createElement("img", {
-                        src: "/assets/images/intro/palm-right.png",
+                        src: "assets/images/intro/palm-right.png",
                         alt: "palm-left",
                         className: "palm-right"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/placeholder.png",
+                        srcSet: "assets/images/placeholder.png",
                         media: "(max-width: 768px)",
                         type: "image/jpg"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/palm-blured.webp",
+                        srcSet: "assets/images/intro/palm-blured.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/palm-blured@3x.png 3x",
+                        srcSet: "assets/images/intro/palm-blured@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/palm-blured@2x.png 2x",
+                        srcSet: "assets/images/intro/palm-blured@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/intro/palm-blured.png",
+                        src: "assets/images/intro/palm-blured.png",
                         alt: "palm-blur",
                         className: "palm-blur"
                     })), a.createElement("div", {
@@ -547,24 +547,24 @@
                         d: "M34.6231 53.7178C21.8391 52.7649 0.839654 45.1145 0.839654 45.1145L-2.72754 53.7178L-1.04886 79.1078L188.222 69.0357L203.12 48.0522L188.222 31.4753L131.986 9.02295C131.986 9.02295 147.514 34.6228 122.124 48.0522C109.716 54.6151 86.4523 43.6457 86.4523 43.6457C86.4523 43.6457 55.1852 55.2504 34.6231 53.7178Z",
                         fill: "#FCEBFE"
                     })))), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/intro/sun@mobile.webp",
+                        srcSet: "assets/images/intro/sun@mobile.webp",
                         media: "(max-width: 665px)",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/sun@mobile.png",
+                        srcSet: "assets/images/intro/sun@mobile.png",
                         media: "(max-width: 665px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/sun.webp",
+                        srcSet: "assets/images/intro/sun.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/sun@3x.png 3x",
+                        srcSet: "assets/images/intro/sun@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/intro/sun@2x.png 2x",
+                        srcSet: "assets/images/intro/sun@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/intro/sun.png",
+                        src: "assets/images/intro/sun.png",
                         alt: "sun",
                         className: "sun"
                     })), a.createElement("div", {
@@ -614,7 +614,7 @@
                     }, a.createElement("image", {
                         width: "1000",
                         height: "1000",
-                        xlinkHref: "/assets/images/intro/dolphin-purple.png",
+                        xlinkHref: "assets/images/intro/dolphin-purple.png",
                         transform: "translate(0 -0.00724643) scale(0.001)"
                     })), a.createElement("linearGradient", {
                         id: "dolphinPurpleWaterGradient",
@@ -673,7 +673,7 @@
                     }, a.createElement("image", {
                         width: "1000",
                         height: "1000",
-                        xlinkHref: "/assets/images/intro/dolphin-gray.png",
+                        xlinkHref: "assets/images/intro/dolphin-gray.png",
                         transform: "translate(0 -0.00724643) scale(0.001)"
                     })), a.createElement("linearGradient", {
                         id: "dolphinBlackWaterGradient",
@@ -732,7 +732,7 @@
                     }, a.createElement("image", {
                         width: "1000",
                         height: "1000",
-                        xlinkHref: "/assets/images/intro/dolphin-yellow.png",
+                        xlinkHref: "assets/images/intro/dolphin-yellow.png",
                         transform: "translate(0 -0.00724643) scale(0.001)"
                     })), a.createElement("linearGradient", {
                         id: "dolphinYellowWaterGradient",
@@ -766,7 +766,7 @@
                     return a.createElement("h2", {
                         className: s()("title", O({}, t, !!t))
                     }, a.createElement("span", null, r), n && a.createElement("img", {
-                        src: "/assets/images/star.svg",
+                        src: "assets/images/star.svg",
                         alt: "star"
                     }), i)
                 }
@@ -949,41 +949,41 @@
                     }), []), a.createElement("div", {
                         className: "whalies"
                     }, a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/placeholder.png",
+                        srcSet: "assets/images/placeholder.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/whalies-reef-left.webp",
+                        srcSet: "assets/images/figures/whalies-reef-left.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/whalies-reef-left@3x.png 3x",
+                        srcSet: "assets/images/figures/whalies-reef-left@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/whalies-reef-left@2x.png 2x",
+                        srcSet: "assets/images/figures/whalies-reef-left@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/whalies-reef-left.png",
+                        src: "assets/images/figures/whalies-reef-left.png",
                         alt: "reef",
                         className: "whalies-reef-left"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/figures/whalies-reef-right@mobile.webp",
+                        srcSet: "assets/images/figures/whalies-reef-right@mobile.webp",
                         media: "(max-width: 768px)",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/whalies-reef-right@mobile.png",
+                        srcSet: "assets/images/figures/whalies-reef-right@mobile.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/whalies-reef-right.webp",
+                        srcSet: "assets/images/figures/whalies-reef-right.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/whalies-reef-right@3x.png 3x",
+                        srcSet: "assets/images/figures/whalies-reef-right@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/whalies-reef-right@2x.png 2x",
+                        srcSet: "assets/images/figures/whalies-reef-right@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/whalies-reef-right.png",
+                        src: "assets/images/figures/whalies-reef-right.png",
                         alt: "reef",
                         className: "whalies-reef-right"
                     })), a.createElement("canvas", {
@@ -997,7 +997,7 @@
                         text: "Meet 3D Whalies Soon...",
                         className: "whalies__title"
                     }, a.createElement("img", {
-                        src: "/assets/images/figures/fishes.png",
+                        src: "assets/images/figures/fishes.png",
                         alt: "fishes",
                         className: "fishes"
                     })), a.createElement("div", {
@@ -1007,16 +1007,16 @@
                     }, a.createElement("div", {
                         className: "whalies__wrapper"
                     }, a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/whalies3d/dolphin-y.webp",
+                        srcSet: "assets/images/whalies3d/dolphin-y.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/whalies3d/dolphin-y@3x.png 3x",
+                        srcSet: "assets/images/whalies3d/dolphin-y@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/whalies3d/dolphin-y@2x.png 2x",
+                        srcSet: "assets/images/whalies3d/dolphin-y@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/whalies3d/dolphin-y.png",
+                        src: "assets/images/whalies3d/dolphin-y.png",
                         alt: "dolphing"
                     })), a.createElement("p", {
                         className: "whalies__text"
@@ -1025,16 +1025,16 @@
                     }, a.createElement("div", {
                         className: "whalies__wrapper"
                     }, a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/whalies3d/dolphin-v.webp",
+                        srcSet: "assets/images/whalies3d/dolphin-v.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/whalies3d/dolphin-v@3x.png 3x",
+                        srcSet: "assets/images/whalies3d/dolphin-v@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/whalies3d/dolphin-v@2x.png 2x",
+                        srcSet: "assets/images/whalies3d/dolphin-v@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/whalies3d/dolphin-v.png",
+                        src: "assets/images/whalies3d/dolphin-v.png",
                         alt: "dolphing"
                     })), a.createElement("p", {
                         className: "whalies__text"
@@ -1043,16 +1043,16 @@
                     }, a.createElement("div", {
                         className: "whalies__wrapper"
                     }, a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/whalies3d/dolphin-b.webp",
+                        srcSet: "assets/images/whalies3d/dolphin-b.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/whalies3d/dolphin-b@3x.png 3x",
+                        srcSet: "assets/images/whalies3d/dolphin-b@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/whalies3d/dolphin-b@2x.png 2x",
+                        srcSet: "assets/images/whalies3d/dolphin-b@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/whalies3d/dolphin-b.png",
+                        src: "assets/images/whalies3d/dolphin-b.png",
                         alt: "dolphing"
                     })), a.createElement("p", {
                         className: "whalies__text"
@@ -1067,19 +1067,19 @@
                 r(4885), r(3424), r(368), r(6256), r(4503);
                 var B = [{
                     id: 0,
-                    icon: "/assets/images/utilies/glasses-icon.png",
+                    icon: "assets/images/utilies/glasses-icon.png",
                     text: "7.5% of royalty fees to DAO wallet and 2.5% cut by Opensea"
                 }, {
                     id: 1,
-                    icon: "/assets/images/utilies/cactus.svg",
+                    icon: "assets/images/utilies/cactus.svg",
                     text: "Sweep Floor price when the community wants"
                 }, {
                     id: 2,
-                    icon: "/assets/images/utilies/diamante.svg",
+                    icon: "assets/images/utilies/diamante.svg",
                     text: "Reward distribution to holders with royalty fees from DAO wallet every month"
                 }, {
                     id: 3,
-                    icon: "/assets/images/utilies/fish-icon.png",
+                    icon: "assets/images/utilies/fish-icon.png",
                     text: "Community-oriented utility token $WHALIE is about to launch"
                 }];
 
@@ -1146,25 +1146,25 @@
                         className: "utilies__title",
                         star: !0
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/scribble.svg",
+                        src: "assets/images/figures/scribble.svg",
                         alt: "scribble",
                         className: "utilies__scribble"
                     }), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/placeholder.png",
+                        srcSet: "assets/images/placeholder.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/utilies/fish.webp",
+                        srcSet: "assets/images/utilies/fish.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/utilies/fish@3x.png 3x",
+                        srcSet: "assets/images/utilies/fish@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/utilies/fish@2x.png 2x",
+                        srcSet: "assets/images/utilies/fish@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
                         ref: s,
-                        src: "/assets/images/utilies/fish.png",
+                        src: "assets/images/utilies/fish.png",
                         alt: "fish",
                         className: "utilies__fish"
                     }))), a.createElement("div", {
@@ -1172,29 +1172,29 @@
                     }, a.createElement("div", {
                         className: "utilies__wrapper"
                     }, a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/utilies/seaweed.webp",
+                        srcSet: "assets/images/utilies/seaweed.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/utilies/seaweed@3x.png 3x",
+                        srcSet: "assets/images/utilies/seaweed@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/utilies/seaweed@2x.png 2x",
+                        srcSet: "assets/images/utilies/seaweed@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/utilies/seaweed.png",
+                        src: "assets/images/utilies/seaweed.png",
                         alt: "seaweed",
                         className: "utilies__seaweed"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/utilies/fish.webp",
+                        srcSet: "assets/images/utilies/fish.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/utilies/fish@3x.png 3x",
+                        srcSet: "assets/images/utilies/fish@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/utilies/fish@2x.png 2x",
+                        srcSet: "assets/images/utilies/fish@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/utilies/fish.png",
+                        src: "assets/images/utilies/fish.png",
                         alt: "fish",
                         className: "utilies__fish-right"
                     })), a.createElement("div", {
@@ -1251,43 +1251,43 @@
                     id: 0,
                     name: "KENDA",
                     prof: "Co-Founder",
-                    image: "/assets/images/team/team-02.jpg",
-                    video: "/assets/videos/team-01.mp4",
+                    image: "assets/images/team/team-02.jpg",
+                    video: "assets/videos/team-01.mp4",
                     twitter: "https://twitter.com/k3_3nda"
                 }, {
                     id: 1,
                     name: "JUNO",
                     prof: "Co-Founder",
-                    image: "/assets/images/team/team-01.jpg",
-                    video: "/assets/videos/team-02.mp4",
+                    image: "assets/images/team/team-01.jpg",
+                    video: "assets/videos/team-02.mp4",
                     twitter: ""
                 }, {
                     id: 2,
                     name: "UNDRWTR777",
                     prof: "Head of Marketing",
-                    image: "/assets/images/team/team-04.jpg",
-                    video: "/assets/videos/team-03.mp4",
+                    image: "assets/images/team/team-04.jpg",
+                    video: "assets/videos/team-03.mp4",
                     twitter: "https://twitter.com/willandrich"
                 }, {
                     id: 3,
                     name: "ARRNGMNT",
                     prof: "Community Manager",
-                    image: "/assets/images/team/team-04.jpg",
-                    video: "/assets/videos/team-04.mp4",
+                    image: "assets/images/team/team-04.jpg",
+                    video: "assets/videos/team-04.mp4",
                     twitter: ""
                 }, {
                     id: 4,
                     name: "BenJammin.eth",
                     prof: "Marketing Advisor",
-                    image: "/assets/images/team/team-06.jpg",
+                    image: "assets/images/team/team-06.jpg",
                     video: "",
                     twitter: "https://twitter.com/xbenjamminx"
                 }, {
                     id: 5,
                     name: "Mariah Angeliq",
                     prof: "[Partner] Singer",
-                    image: "/assets/images/team/team-05.jpg",
-                    video: "/assets/videos/team-05.mp4",
+                    image: "assets/images/team/team-05.jpg",
+                    video: "assets/videos/team-05.mp4",
                     twitter: "https://instagram.com/mariahangeliq"
                 }];
 
@@ -1363,49 +1363,49 @@
                         ref: s,
                         className: "team ".concat(o ? i ? "visible" : "hidden" : "")
                     }, a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/figures/team-reef-left@mobile.webp",
+                        srcSet: "assets/images/figures/team-reef-left@mobile.webp",
                         media: "(max-width: 768px)",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/team-reef-left@mobile.png",
+                        srcSet: "assets/images/figures/team-reef-left@mobile.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/team-reef-left.webp",
+                        srcSet: "assets/images/figures/team-reef-left.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/team-reef-left@3x.png 3x",
+                        srcSet: "assets/images/figures/team-reef-left@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/team-reef-left@2x.png 2x",
+                        srcSet: "assets/images/figures/team-reef-left@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/team-reef-left.png",
+                        src: "assets/images/figures/team-reef-left.png",
                         alt: "seaweed",
                         className: "team__ref-left"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/figures/team-reef-right@mobile.webp",
+                        srcSet: "assets/images/figures/team-reef-right@mobile.webp",
                         media: "(max-width: 768px)",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/team-reef-right@mobile.png",
+                        srcSet: "assets/images/figures/team-reef-right@mobile.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/team-reef-right.webp",
+                        srcSet: "assets/images/figures/team-reef-right.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/team-reef-right@3x.png 3x",
+                        srcSet: "assets/images/figures/team-reef-right@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/team-reef-right@2x.png 2x",
+                        srcSet: "assets/images/figures/team-reef-right@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/team-reef-right.png",
+                        src: "assets/images/figures/team-reef-right.png",
                         alt: "seaweed",
                         className: "team__ref-right"
                     })), a.createElement("img", {
-                        src: "/assets/images/figures/fishes-blur.svg",
+                        src: "assets/images/figures/fishes-blur.svg",
                         alt: "fishes",
                         className: "team__fishes-blur"
                     }), a.createElement("div", {
@@ -1557,86 +1557,86 @@
                         ref: m,
                         className: "roadmap ".concat(u ? o ? "visible" : "hidden" : "")
                     }, a.createElement("img", {
-                        src: "/assets/images/figures/fishes-blur.svg",
+                        src: "assets/images/figures/fishes-blur.svg",
                         alt: "fishes-blur",
                         className: "roadmap__fishes-blur"
                     }), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@mobile.webp",
+                        srcSet: "assets/images/figures/roadmap-reef@mobile.webp",
                         media: "(max-width: 768px)",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@mobile.png",
+                        srcSet: "assets/images/figures/roadmap-reef@mobile.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef.webp",
+                        srcSet: "assets/images/figures/roadmap-reef.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@3x.png 3x",
+                        srcSet: "assets/images/figures/roadmap-reef@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@3x.png 2x",
+                        srcSet: "assets/images/figures/roadmap-reef@3x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/roadmap-reef.png",
+                        src: "assets/images/figures/roadmap-reef.png",
                         alt: "reef",
                         className: "roadmap__reef roadmap__reef_01"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/placeholder.png",
+                        srcSet: "assets/images/placeholder.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef.webp",
+                        srcSet: "assets/images/figures/roadmap-reef.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@3x.png 3x",
+                        srcSet: "assets/images/figures/roadmap-reef@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@3x.png 2x",
+                        srcSet: "assets/images/figures/roadmap-reef@3x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/roadmap-reef.png",
+                        src: "assets/images/figures/roadmap-reef.png",
                         alt: "reef",
                         className: "roadmap__reef roadmap__reef_02"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/placeholder.png",
+                        srcSet: "assets/images/placeholder.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef.webp",
+                        srcSet: "assets/images/figures/roadmap-reef.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@3x.png 3x",
+                        srcSet: "assets/images/figures/roadmap-reef@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@3x.png 2x",
+                        srcSet: "assets/images/figures/roadmap-reef@3x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/roadmap-reef.png",
+                        src: "assets/images/figures/roadmap-reef.png",
                         alt: "reef",
                         className: "roadmap__reef roadmap__reef_03"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/placeholder.png",
+                        srcSet: "assets/images/placeholder.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef.webp",
+                        srcSet: "assets/images/figures/roadmap-reef.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@3x.png 3x",
+                        srcSet: "assets/images/figures/roadmap-reef@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@3x.png 2x",
+                        srcSet: "assets/images/figures/roadmap-reef@3x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/roadmap-reef.png",
+                        src: "assets/images/figures/roadmap-reef.png",
                         alt: "reef",
                         className: "roadmap__reef roadmap__reef_04"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/figures/bubles.webp",
+                        srcSet: "assets/images/figures/bubles.webp",
                         type: "image/webp"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/bubles.png",
+                        src: "assets/images/figures/bubles.png",
                         alt: "bubles",
                         className: "roadmap__bubles"
                     })), a.createElement("div", {
@@ -1655,7 +1655,7 @@
                             return t.slidePrev()
                         }
                     }, a.createElement("img", {
-                        src: "/assets/images/prev-arrow.svg",
+                        src: "assets/images/prev-arrow.svg",
                         alt: "prev"
                     })), a.createElement("button", {
                         className: "roadmap__arrow-btn roadmap__arrow-btn_next",
@@ -1663,7 +1663,7 @@
                             return t.slideNext()
                         }
                     }, a.createElement("img", {
-                        src: "/assets/images/next-arrow.svg",
+                        src: "assets/images/next-arrow.svg",
                         alt: "next"
                     }))), a.createElement("div", {
                         className: "roadmap__slider"
@@ -1692,7 +1692,7 @@
                     }, a.createElement("div", {
                         className: "roadmap-item__wrapper"
                     }, a.createElement("img", {
-                        src: "/assets/images/roadmap/path-01.svg",
+                        src: "assets/images/roadmap/path-01.svg",
                         alt: "path",
                         className: "roadmap__path roadmap-item__path1"
                     }), a.createElement(k, {
@@ -1712,11 +1712,11 @@
                             className: "roadmap-item__point",
                             key: e
                         }, a.createElement("picture", null, a.createElement("source", {
-                            srcSet: "/assets/images/listpoint@mobile.png",
+                            srcSet: "assets/images/listpoint@mobile.png",
                             media: "(max-width: 768px)",
                             type: "image/png"
                         }), a.createElement("img", {
-                            src: "/assets/images/listpoint.png",
+                            src: "assets/images/listpoint.png",
                             alt: "."
                         })), a.createElement("span", null, e))
                     }))))))), a.createElement(j.o, null, a.createElement("div", {
@@ -1724,7 +1724,7 @@
                     }, a.createElement("div", {
                         className: "roadmap-item__wrapper"
                     }, a.createElement("img", {
-                        src: "/assets/images/roadmap/path-02.svg",
+                        src: "assets/images/roadmap/path-02.svg",
                         alt: "path",
                         className: "roadmap__path roadmap-item__path2"
                     }), a.createElement(k, {
@@ -1741,11 +1741,11 @@
                             className: "roadmap-item__point",
                             key: e
                         }, a.createElement("picture", null, a.createElement("source", {
-                            srcSet: "/assets/images/listpoint@mobile.png",
+                            srcSet: "assets/images/listpoint@mobile.png",
                             media: "(max-width: 768px)",
                             type: "image/png"
                         }), a.createElement("img", {
-                            src: "/assets/images/listpoint.png",
+                            src: "assets/images/listpoint.png",
                             alt: "."
                         })), a.createElement("span", null, e))
                     }))))))), a.createElement(j.o, null, a.createElement("div", {
@@ -1753,7 +1753,7 @@
                     }, a.createElement("div", {
                         className: "roadmap-item__wrapper"
                     }, a.createElement("img", {
-                        src: "/assets/images/roadmap/path-03.svg",
+                        src: "assets/images/roadmap/path-03.svg",
                         alt: "path",
                         className: "roadmap__path roadmap-item__path3"
                     }), a.createElement(k, {
@@ -1770,11 +1770,11 @@
                             className: "roadmap-item__point",
                             key: e
                         }, a.createElement("picture", null, a.createElement("source", {
-                            srcSet: "/assets/images/listpoint@mobile.png",
+                            srcSet: "assets/images/listpoint@mobile.png",
                             media: "(max-width: 768px)",
                             type: "image/png"
                         }), a.createElement("img", {
-                            src: "/assets/images/listpoint.png",
+                            src: "assets/images/listpoint.png",
                             alt: "."
                         })), a.createElement("span", null, e))
                     })))))))))))
@@ -1886,9 +1886,9 @@
                             backgroundAlpha: 0
                         });
                         e.view.classList.add("community__background"), m.current.append(e.view);
-                        var t = new ee.jyi.from("/assets/images/community/background.png");
+                        var t = new ee.jyi.from("assets/images/community/background.png");
                         t.width = window.innerWidth, t.height = window.outerWidth <= 556 ? window.innerHeight / 2 : window.innerHeight, e.stage.addChild(t);
-                        var r = new ee.jyi.from("/assets/images/community/distortion-map.png"),
+                        var r = new ee.jyi.from("assets/images/community/distortion-map.png"),
                             a = new ee.u8d.DisplacementFilter(r);
                         r.texture.baseTexture.wrapMode = ee.Nt$.REPEAT, e.stage.addChild(r), e.stage.filters = [a], e.renderer.view.style.transform = "scale(1.02)", r.scale.x = 2, r.scale.y = 2,
                             function e() {
@@ -1912,28 +1912,28 @@
                         ref: m,
                         className: "community ".concat(d ? t ? "visible" : "hidden" : "")
                     }, a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@mobile.webp",
+                        srcSet: "assets/images/figures/roadmap-reef@mobile.webp",
                         media: "(max-width: 768px)",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@mobile.png",
+                        srcSet: "assets/images/figures/roadmap-reef@mobile.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef.webp",
+                        srcSet: "assets/images/figures/roadmap-reef.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@3x.png 3x",
+                        srcSet: "assets/images/figures/roadmap-reef@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/roadmap-reef@3x.png 2x",
+                        srcSet: "assets/images/figures/roadmap-reef@3x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/roadmap-reef.png",
+                        src: "assets/images/figures/roadmap-reef.png",
                         alt: "reef",
                         className: "community__reef"
                     })), a.createElement("img", {
-                        src: "/assets/images/figures/fishes-blur.svg",
+                        src: "assets/images/figures/fishes-blur.svg",
                         alt: "fishes",
                         className: "community__fishes-blur"
                     }), a.createElement("div", {
@@ -1946,28 +1946,28 @@
                     }), a.createElement("div", {
                         className: "community__controls"
                     }, a.createElement(f, {
-                        icon: "/assets/images/community/discord.svg",
+                        icon: "assets/images/community/discord.svg",
                         text: "Discord",
                         onClick: function() {
                             return U("https://discord.com/invite/gDUQhG8Mz7")
                         },
                         className: "community__btn community__btn_dark"
                     }), a.createElement(f, {
-                        icon: "/assets/images/community/telegram.svg",
+                        icon: "assets/images/community/telegram.svg",
                         text: "Telegram",
                         onClick: function() {
                             return U("https://t.me/WhaliesDAO")
                         },
                         className: "community__btn community__btn_light"
                     }), a.createElement(f, {
-                        icon: "/assets/images/community/twitter.svg",
+                        icon: "assets/images/community/twitter.svg",
                         text: "Twitter",
                         className: "community__btn community__btn_light",
                         onClick: function() {
                             return U("https://twitter.com/WhaliesDAO")
                         }
                     }), a.createElement(f, {
-                        icon: "/assets/images/community/instagram.svg",
+                        icon: "assets/images/community/instagram.svg",
                         text: "Instagram",
                         className: "community__btn community__btn_insta",
                         onClick: function() {
@@ -1981,41 +1981,41 @@
 
                 function ne() {
                     return a.createElement(a.Fragment, null, a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/figures/lights@mobile.webp",
+                        srcSet: "assets/images/figures/lights@mobile.webp",
                         media: "(max-width: 768px)",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/lights@mobile.png",
+                        srcSet: "assets/images/figures/lights@mobile.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/lights.webp",
+                        srcSet: "assets/images/figures/lights.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/lights@3x.png 3x",
+                        srcSet: "assets/images/figures/lights@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/lights@2x.png 2x",
+                        srcSet: "assets/images/figures/lights@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/lights.png",
+                        src: "assets/images/figures/lights.png",
                         alt: "lights",
                         className: "page__lights page__lights_fst"
                     })), a.createElement("picture", null, a.createElement("source", {
-                        srcSet: "/assets/images/placeholder.png",
+                        srcSet: "assets/images/placeholder.png",
                         media: "(max-width: 768px)",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/lights.webp",
+                        srcSet: "assets/images/figures/lights.webp",
                         type: "image/webp"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/lights@3x.png 3x",
+                        srcSet: "assets/images/figures/lights@3x.png 3x",
                         type: "image/png"
                     }), a.createElement("source", {
-                        srcSet: "/assets/images/figures/lights@2x.png 2x",
+                        srcSet: "assets/images/figures/lights@2x.png 2x",
                         type: "image/png"
                     }), a.createElement("img", {
-                        src: "/assets/images/figures/lights.png",
+                        src: "assets/images/figures/lights.png",
                         alt: "lights",
                         className: "page__lights page__lights_scd"
                     })), a.createElement("div", {
@@ -2136,7 +2136,7 @@
                         to: "#",
                         text: o,
                         className: "header__wallet-btn menu__btn",
-                        glassIcon: "/assets/images/header/btn-glass.svg",
+                        glassIcon: "assets/images/header/btn-glass.svg",
                         onClick: function() {
                             if (null !== t.userWallet) return !1;
                             r(se(se({}, t), {}, {
@@ -2154,7 +2154,7 @@
                         onClick: c
                     }, a.createElement(d, {
                         title: "Mint",
-                        icon: "/assets/images/header/mint-icon.png",
+                        icon: "assets/images/header/mint-icon.png",
                         href: "#",
                         onClick: c
                     }))), a.createElement("div", {
@@ -2165,19 +2165,19 @@
                         href: "/",
                         className: "menu__social-link"
                     }, a.createElement("img", {
-                        src: "/assets/images/community/twitter.svg",
+                        src: "assets/images/community/twitter.svg",
                         alt: "link"
                     })), a.createElement("a", {
                         href: "/",
                         className: "menu__social-link menu__social-link_darkblue"
                     }, a.createElement("img", {
-                        src: "/assets/images/community/discord.svg",
+                        src: "assets/images/community/discord.svg",
                         alt: "link"
                     })), a.createElement("a", {
                         href: "/",
                         className: "menu__social-link"
                     }, a.createElement("img", {
-                        src: "/assets/images/community/telegram.svg",
+                        src: "assets/images/community/telegram.svg",
                         alt: "link"
                     })))))
                 }
@@ -2286,11 +2286,11 @@
                         }, a.createElement("div", {
                             className: "footer-logo"
                         }, a.createElement("img", {
-                            src: "/assets/images/header/logo-icon.svg",
+                            src: "assets/images/header/logo-icon.svg",
                             alt: "logo",
                             className: "header__logo_icon"
                         }), a.createElement("img", {
-                            src: "/assets/images/header/logo-text.svg",
+                            src: "assets/images/header/logo-text.svg",
                             alt: "logo",
                             className: "header__logo_text"
                         })), a.createElement("div", {
@@ -2906,7 +2906,7 @@
                     }, a.createElement("image", {
                         width: "1000",
                         height: "1000",
-                        xlinkHref: "/assets/images/intro/dolphin-purple.png",
+                        xlinkHref: "assets/images/intro/dolphin-purple.png",
                         transform: "translate(0 -0.00724643) scale(0.001)"
                     })), a.createElement("linearGradient", {
                         id: "dolphinPurpleWaterGradient",
@@ -2965,7 +2965,7 @@
                     }, a.createElement("image", {
                         width: "1000",
                         height: "1000",
-                        xlinkHref: "/assets/images/intro/dolphin-gray.png",
+                        xlinkHref: "assets/images/intro/dolphin-gray.png",
                         transform: "translate(0 -0.00724643) scale(0.001)"
                     })), a.createElement("linearGradient", {
                         id: "dolphinBlackWaterGradient",
@@ -3024,7 +3024,7 @@
                     }, a.createElement("image", {
                         width: "1000",
                         height: "1000",
-                        xlinkHref: "/assets/images/intro/dolphin-yellow.png",
+                        xlinkHref: "assets/images/intro/dolphin-yellow.png",
                         transform: "translate(0 -0.00724643) scale(0.001)"
                     })), a.createElement("linearGradient", {
                         id: "dolphinYellowWaterGradient",
@@ -3161,7 +3161,7 @@
                     }, a.createElement("div", {
                         className: "preloader__logo"
                     }, a.createElement("img", {
-                        src: "/assets/images/preloader.png",
+                        src: "assets/images/preloader.png",
                         alt: "preloader-logo"
                     })))
                 }
@@ -3383,11 +3383,11 @@
                         className: "title"
                     }, "Metamask"), a.createElement("img", {
                         className: "icon",
-                        src: "/assets/images/modals/metamask.png",
+                        src: "assets/images/modals/metamask.png",
                         alt: "metamask"
                     }), a.createElement("img", {
                         className: "glass",
-                        src: "/assets/images/glass.svg",
+                        src: "assets/images/glass.svg",
                         alt: "glass"
                     }))), a.createElement("button", {
                         className: "m-wallet__btn blue",
@@ -3404,11 +3404,11 @@
                         className: "title"
                     }, "Wallet Connect"), a.createElement("img", {
                         className: "icon",
-                        src: "/assets/images/modals/wallet-connect.png",
+                        src: "assets/images/modals/wallet-connect.png",
                         alt: "metamask"
                     }), a.createElement("img", {
                         className: "glass",
-                        src: "/assets/images/glass.svg",
+                        src: "assets/images/glass.svg",
                         alt: "glass"
                     }))))))
                 }
@@ -3423,7 +3423,7 @@
                     }, "Error"), a.createElement(vt, null)), a.createElement("div", {
                         className: "m-wallet__body"
                     }, a.createElement("img", {
-                        src: "/assets/images/modals/smile-error.png",
+                        src: "assets/images/modals/smile-error.png",
                         alt: "smile",
                         className: "m-wallet__smile"
                     }), a.createElement("p", {
@@ -3506,7 +3506,7 @@
                         className: "m-wallet__header"
                     }, a.createElement("span", {
                         className: "empty"
-                    }, " "), a.createElement("h3", {
+                    }, "  "), a.createElement("h3", {
                         className: "m-wallet__header-tlt green"
                     }, "Success"), a.createElement(vt, {
                         onClick: function() {
@@ -3520,7 +3520,7 @@
                     })), a.createElement("div", {
                         className: "m-wallet__body"
                     }, a.createElement("img", {
-                        src: "/assets/images/modals/smile-success.png",
+                        src: "assets/images/modals/smile-success.png",
                         alt: "smile",
                         className: "m-wallet__smile"
                     }), a.createElement("p", {
