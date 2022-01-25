@@ -16299,7 +16299,7 @@
                 u = function() {
                     var t, e = r(415)("iframe"),
                         n = o.length;
-                    for (e.style.display = "none", r(9149).appendChild(e), e.src = "javascript:", (t = e.contentWindow.document).open(), t.write("<script>document.F=Object<\/script>"), t.close(), u = t.F; n--;) delete u.prototype[o[n]];
+                    for (e.style.display = "", r(9149).appendChild(e), e.src = "javascript:", (t = e.contentWindow.document).open(), t.write("<script>document.F=Object<\/script>"), t.close(), u = t.F; n--;) delete u.prototype[o[n]];
                     return u()
                 };
             t.exports = Object.create || function(t, e) {
